@@ -21,7 +21,7 @@ spec:
         app: ecsdemo-crystal
     spec:
       containers:
-      - image: gsaiadhinathareddy/k8s_microservices:crysta
+      - image: gsaiadhinathareddy/k8s_microservices:crystal
         imagePullPolicy: Always
         name: ecsdemo-crystal
         ports:
